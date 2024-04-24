@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:6400/api/v1/todos/ical
+
+POST {{baseUrl}} HTTP/1.1
+Content-Type: application/json
+
+{ 
+ "task_id": "2e80aefd-4a69-4a94-b23a-45f2b8110988", 
+ "task_url": "http://localhost:6400/api/v1/todos/ical/2e80aefd-4a69-4a94-b23a-45f2b8110988/status" 
+}
